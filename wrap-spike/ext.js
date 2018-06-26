@@ -11,7 +11,16 @@ exports.wrap = function(module) {
 function transform(fn) {
     return function(options, success, failure) {
         console.log("function transform running...");
-        fn(options, done(success), done(failure));
+        fn(
+            options, 
+            function() {
+                console.log("...done.");
+                success.apply(this, arguments);
+            }, 
+            function() {
+                console.log("...done.");
+                failure.apply(this, arguments);
+            });
     }
 
     function done(fn) {
