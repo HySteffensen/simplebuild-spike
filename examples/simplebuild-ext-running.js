@@ -11,7 +11,7 @@
 
     function transform(fn) {
         return function(options, success, failure) {
-            console.log("Running...");
+            console.log("Running Transform...");
             fn(options, done(success), done(failure));
         };
 
