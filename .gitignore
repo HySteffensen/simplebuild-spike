@@ -1,0 +1,11 @@
+# Mac OS X
+.DS_Store
+
+# WebStorm
+.idea/workspace.xml
+
+# npm
+node_modules/
+
+# scratches--a place to try out example code
+scratches
