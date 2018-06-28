@@ -8,14 +8,16 @@
     var headerExt = require("./simplebuild-ext-header.js");
 
     barebones = headerExt.addHeader(runningExt.wrap(barebones));
+    // barebones = headerExt.addHeader(barebones);
+    // barebones = runningExt.wrap(barebones);
 
-    console.log("Running succeed()");
+    console.log();
     barebones.succeed({}, success, failure);
 
-    console.log("Running fail()");
+    console.log();
     barebones.fail({}, success, failure);
 
-    console.log("Run succeedOrFail()");
+    console.log();
     barebones.succeedOrFail({ fail: true }, success, failure);
 
     function success() {
