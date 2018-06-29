@@ -1,0 +1,23 @@
+{
+  "name": "simplebuild-spike",
+  "version": "1.0.0",
+  "description": "In this repository, I will be test-driving James Shore's simplebuild [https://github.com/jamesshore/simplebuild.git]. Simplebuild is a library that allows the end user to create an automated build via promises, Grunt or Jake.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HySteffensen/simplebuild-spike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HySteffensen/simplebuild-spike/issues"
+  },
+  "homepage": "https://github.com/HySteffensen/simplebuild-spike#readme",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
