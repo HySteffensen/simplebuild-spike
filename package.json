@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/HySteffensen/simplebuild-spike#readme",
   "devDependencies": {
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "mocha": "^5.2.0"
   }
 }
